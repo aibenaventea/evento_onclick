@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio_evento_onclick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <header class="con-t">
+            <h1 class="cth">Dojonary</h1>
+            <input class="cts" type="search" placeholder="Search">
+            <button class="ctb" onclick="switchbtn(this)">Login</button>
+            <!-- <input class="ctb" onclick="switchbtn(this) type="button" value="Login"> -->
+        </header>
+        <div class="con-m">
+            <aside class="asi-l">
+                <article class="art-t">
+                    <div class="subart-t">
+                        <section class="lsec-tit">
+                            <h2 class="lst-h2">ninja</h2>
+                            <h3 class="lst-h3">noun</h3>
+                            <p class="lst-p">Plural: <span>ninjas</span></p>
+                        </section>
+                        <button class="lsec-btn" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <section class="lsec-txt">
+                        <p>A practitioner skilled in the <br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </section>
+                </article>
+                <article class="art-b">
+                    <div class="subart-b">
+                        <section class="lsec-tit">
+                            <h2 class="lst-h2">ninja</h2>
+                            <h3 class="lst-h3">noun</h3>
+                            <p class="lst-p">Plural: <span>ninjas</span></p>
+                        </section>
+                        <button class="lsec-btn">37 likes</button>
+                    </div>
+                    <section class="lsec-txt">
+                        <p>A <a href="#">programmer</a> who breaks <br> down problems with <a href="#">zen</a>-like <br> focus</p>
+                    </section>
+                </article>
+            </aside>
+            <aside class="asi-r">
+                <article class="art-c">
+                    <section class="rsec-tit">
+                        <p class="rst-h2">Dojonary is <br> defined by <span>YOU</span></p>
+                    </section>
+                    <button class="rsec-btn" onclick="removebtn(this)">Add Definition</button>
+                </article>
+            </aside>    
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
